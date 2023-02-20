@@ -1,0 +1,30 @@
+{
+  "name": "sse-ws--dz-server",
+  "version": "1.0.0",
+  "description": "ws server",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvova21/sse-ws--DZ-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pvova21/sse-ws--DZ-server/issues"
+  },
+  "homepage": "https://github.com/pvova21/sse-ws--DZ-server#readme",
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "forever": "^4.0.3",
+    "koa": "^2.14.1",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.0",
+    "uuid": "^9.0.0",
+    "ws": "^8.12.1"
+  }
+}
