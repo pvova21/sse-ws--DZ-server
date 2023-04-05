@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/pvova21/sse-ws--DZ-server/issues"
   },
-  "homepage": "https://github.com/pvova21/sse-ws--DZ-server#readme",
+  "homepage": "https://pvova21.github.io/sse-ws--DZ-front/",
   "dependencies": {
     "@koa/cors": "^4.0.0",
     "forever": "^4.0.3",
